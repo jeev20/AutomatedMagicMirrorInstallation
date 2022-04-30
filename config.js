@@ -26,7 +26,7 @@ let config = {
 	httpsPrivateKey: "", 	// HTTPS private key path, only require when useHttps is true
 	httpsCertificate: "", 	// HTTPS Certificate path, only require when useHttps is true
 
-	language: "en",
+	language: "no",
 	locale: "en-US",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
 	timeFormat: 24,
@@ -55,7 +55,7 @@ let config = {
 			position: "bottom_right",
 			header: "AtB - Now +5 minutes",
 			config: {
-				stopId: '42632',
+				stopId: '44032',
 				stopType: 'StopPlace',
 				numResults: 5,
 				showName: false,
@@ -73,7 +73,7 @@ let config = {
 			module: "MMM-Entur-tavle",
 			position: "bottom_right",
 			config: {
-				stopId: '43670',
+				stopId: '42660',
 				stopType: 'StopPlace',
 				numResults: 5,
 				showName: false,
@@ -139,7 +139,7 @@ let config = {
 			module: 'MMM-YrNow',
 			position: 'top_left',
 			config: {
-				locationId: '10-1023731',
+				locationId: '1-211102',
 				showWeatherForecast: true
 			}
 		},
@@ -158,7 +158,7 @@ let config = {
 			header: "Tømmeplan",
 			position: "bottom_left",
 			config: {
-				id: 2767,
+				id: 2694,
 				header: "",
 				blnLabel: true,
 				blnDate: true,
@@ -201,7 +201,7 @@ let config = {
 						flag: "no"
 					},
 					{
-						title: "Udupi", // Too long of a title could cause bad text align.
+						title: "Kolkata", // Too long of a title could cause bad text align.
 						timezone: "Asia/Kolkata", //When omitted, Local time will be displayed.
 						flag: "in", // If you'd like a flag from the standard library
 					},
