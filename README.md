@@ -23,7 +23,7 @@ The script installs [MagicMirror](https://github.com/MichMich/MagicMirror)  in t
 7. That is it! You should see your [MagicMirror](https://github.com/MichMich/MagicMirror) up and running 
 ![SampleMirror](https://github.com/jeev20/AutomatedMagicMirrorInstallation/blob/main/OutputDashboard.png)  
 
-After installation is complete. The next time you want to start [MagicMirror](https://github.com/MichMich/MagicMirror), navigate to the directory and use one of the following commands:  
+After the installation is complete and the next time you want to start [MagicMirror](https://github.com/MichMich/MagicMirror), navigate to the directory and use one of the following commands:  
 * `npm run server`  (starts a local server)
 **OR**
 * `npm run start`    (runs the application on the host machine)
