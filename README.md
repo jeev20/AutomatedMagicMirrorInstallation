@@ -23,12 +23,12 @@ The script installs [MagicMirror](https://github.com/MichMich/MagicMirror)  in t
 7. That is it! You should see your [MagicMirror](https://github.com/MichMich/MagicMirror) up and running 
 
 After installation is complete. The next time you want to start [MagicMirror](https://github.com/MichMich/MagicMirror), navigate to the directory and use one of the following commands:  
-* `npm run server` 
-OR 
-* `npm run start`
+* `npm run server`  (starts a local server)
+**OR**
+* `npm run start`    (runs the application on the host machine)
 
 ### Script tested in 
 * Rapsberry Pi 3B+ 
 * Kubuntu 20.04
 
-If you would like to contribute, please do and send me a pull request. +1
+If you would like to contribute, please do and send me a pull request. :thumbsup:
