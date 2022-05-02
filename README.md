@@ -21,6 +21,7 @@ The script installs [MagicMirror](https://github.com/MichMich/MagicMirror)  in t
 5. Run the  `InstallMagicMirrorWithModules.js`
 6. The script will require your user password before installing as some of the commands require superuser role (sudo). [MagicMirror](https://github.com/MichMich/MagicMirror) itself does not need superuser role, but the apt update and upgrade commands do. 
 7. That is it! You should see your [MagicMirror](https://github.com/MichMich/MagicMirror) up and running 
+[OutputSample](https://github.com/jeev20/AutomatedMagicMirrorInstallation/blob/main/OutputDashboard.png)
 
 After installation is complete. The next time you want to start [MagicMirror](https://github.com/MichMich/MagicMirror), navigate to the directory and use one of the following commands:  
 * `npm run server`  (starts a local server)
