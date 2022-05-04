@@ -78,6 +78,7 @@ case $yn in
 
         # Install pm2 
         sudo npm install -g pm2
+        sudo pm2 startup
 
         # Downloaded / Cloned folder
         cd ..
